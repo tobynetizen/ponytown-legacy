@@ -310,9 +310,10 @@ gulp dev --coverage # Run with tests and code coverage
 - `src/ts/server/map/customMap.ts` — Commented introduction to customizing maps
 
 # License
-The source code for this repository is licensed under the **Unlicense** license.
-For more information, click [here](https://unlicense.org/).\
-All art and music in this repository are licensed under the **CC-BY-NC-4.0** license.
+The source code for this repository is licensed under the **Unlicense** license.\
+For more information, click [here](https://unlicense.org/).
+
+All art and music in this repository are licensed under the **CC-BY-NC-4.0** license.\
 For more information, click [here](https://creativecommons.org/licenses/by-nc/4.0/legalcode.txt).
 
 # Credits
