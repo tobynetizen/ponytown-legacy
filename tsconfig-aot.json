@@ -1,0 +1,32 @@
+{
+	"extends": "./tsconfig.json",
+	"compilerOptions": {
+		"target": "es5",
+		"module": "es2015",
+		"baseUrl": ".",
+		"preserveConstEnums": false,
+		"paths": {
+			"lodash": ["src/ts/lodash.ts"],
+			"@common/*": ["src/ts/common/*"],
+			"@client/*": ["src/ts/client/*"],
+			"@server/*": ["src/ts/server/*"],
+			"@graphics/*": ["src/ts/graphics/*"],
+			"@components/*": ["src/ts/components/*"],
+			"@generated/*": ["src/ts/generated/*"]
+		}
+	},
+	"exclude": [
+		"build",
+		"tools",
+		"src/scripts",
+		"src/ts/server",
+		"src/ts/tests",
+		"src/ts/tools",
+		"node_modules"
+	],
+	"angularCompilerOptions": {
+		"genDir": "src/ts",
+		"skipMetadataEmit": true,
+		"preserveWhitespaces": true
+	}
+}

@@ -1,0 +1,40 @@
+{
+	"compilerOptions": {
+		"target": "es2017",
+		"lib": [
+			"dom",
+			"es6"
+		],
+		"module": "commonjs",
+		"moduleResolution": "node",
+		"importHelpers": true,
+		"noUnusedLocals": true,
+		"noUnusedParameters": true,
+		"declaration": false,
+		"noEmitOnError": false,
+		"experimentalDecorators": true,
+		"emitDecoratorMetadata": true,
+		"noImplicitReturns": true,
+		"strict": true,
+		"strictFunctionTypes": true,
+		"sourceMap": true,
+		"preserveConstEnums": true,
+		"skipLibCheck": true,
+		"allowUmdGlobalAccess": true,
+		"baseUrl": ".",
+		"paths": {
+			"@common/*": ["src/ts/common/*"],
+			"@client/*": ["src/ts/client/*"],
+			"@server/*": ["src/ts/server/*"],
+			"@graphics/*": ["src/ts/graphics/*"],
+			"@components/*": ["src/ts/components/*"],
+			"@generated/*": ["src/ts/generated/*"]
+		}
+	},
+	"exclude": [
+		"build",
+		"tools",
+		"src/scripts",
+		"node_modules"
+	]
+}
